@@ -1,0 +1,303 @@
+body {
+    background-color: #242329;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #e0e7fc;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: 0%;
+    outline-style: dashed;
+    outline: invert;
+}
+a{
+    text-decoration: none;
+}
+
+.contenedor {
+    border: 1px solid black;
+    height: 600px;
+    background-image: url(god.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: auto;
+    overflow-y: hidden;
+    outline-style: dotted;
+    opacity: 90%;
+}
+
+#moreno {
+    background-color: rgb(0, 0, 0);
+    width: 170px;
+    height: 170px;
+    position: relative;
+    border-radius: 10%;
+    top: 78%;
+    left: 40%;
+    outline: 2px solid rgb(0, 0, 0);
+    transition-duration: .25s;
+}
+
+#moreno div {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 45%;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+#moreno div a {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 45%;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+#sanmartin {
+    background-color: black;
+    width: 170px;
+    height: 100px;
+    position: relative;
+    border-radius: 30%;
+    bottom: 31%;
+    left: 40%;
+    outline: 2px solid rgb(0, 0, 0);
+    transition-duration: .25s;
+}
+
+#sanmartin div {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 45%;
+    text-transform: uppercase;
+}
+
+#sanmartin div a {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 45%;
+    text-transform: uppercase;
+}
+
+#italia {
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 50%;
+    left: 8%;
+    bottom: 40%;
+    outline: 2px solid rgb(255, 255, 255);
+    transition-duration: 0.25s;
+}
+
+#italia div {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-transform: uppercase;
+}
+
+#italia div a {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-transform: uppercase;
+}
+
+#paso {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+    top: 10%;
+    left: 8%;
+    outline: 2px solid rgb(0, 0, 0);
+    transition-duration: .25s;
+}
+
+#paso div {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-transform: uppercase;
+}
+
+#paso div a {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-transform: uppercase;
+}
+
+#rocha {
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 50%;
+    bottom: 54%;
+    left: 78%;
+    outline: 2px solid rgb(0, 0, 0);
+    transition-duration: .25s;
+}
+
+#rocha div {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-transform: uppercase;
+}
+
+#rocha div a {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-transform: uppercase;
+}
+
+#maximo {
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 50%;
+    bottom: 3%;
+    left: 78%;
+    outline: 2px solid rgb(0, 0, 0);
+    transition-duration: .25s;
+}
+
+#maximo div {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 30%;
+    text-transform: uppercase;
+}
+
+#maximo div a {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    position: relative;
+    top: 30%;
+    text-transform: uppercase;
+}
+
+#moreno:hover {
+    background-image: radial-gradient( #43002e 60%, #001041 90%);
+    font-weight: bolder;
+    outline-offset: 1px;
+    outline: 4px solid rgba(15, 0, 84, 0.665);
+}
+
+#italia:hover {
+    background-image: linear-gradient(#086600, whitesmoke, #d13531);
+    font-size: larger;
+    font-weight: bolder;
+    outline-offset: 1px;
+    outline: 4px solid rgba(0, 255, 60, 0.607);
+}
+
+#sanmartin:hover {
+    background-image: linear-gradient(#ffffff, #058995);
+    font-size: larger;
+    outline-offset: 1px;
+    outline: 4px solid rgba(3, 188, 255, 0.622);
+}
+
+#maximo:hover {
+    background-image: linear-gradient(#43159e, whitesmoke, #ff00c3);
+    font-size: larger;
+    font-weight: bolder;
+    outline-offset: 1px;
+    outline: 4px solid rgb(0, 187, 255);
+}
+
+#rocha:hover {
+    background-image: linear-gradient(#15ff00, rgb(166, 166, 166), #ff00aa);
+    font-size: larger;
+    font-weight: bolder;
+    outline-offset: 1px;
+    outline: 4px solid rgba(98, 0, 255, 0.456);
+}
+
+#paso:hover {
+    background-image: linear-gradient(#1500ff, rgb(159, 159, 159), #ff0800);
+    ;
+    font-size: larger;
+    font-weight: bolder;
+    outline-offset: 1px;
+    outline: 4px solid rgba(120, 2, 2, 0.773);
+}
+
+.contenedor:hover {
+    outline-color: rgb(117, 0, 78);
+    animation: gradient-animation 2.5s alternate infinite;
+}
+
+
+@keyframes gradient-animation {
+    50% {
+        outline-color: rgb(0, 221, 255);
+    }
+}
+h1:hover {
+    background-image: linear-gradient(#1500ff, rgb(134, 0, 96), #ff0800);
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    column-gap: 270px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transform: scaley(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.link:hover::after {
+    transform: scaley(1);
+    transform-origin: bottom;
+    background-color: #ff00ae;
+}
+
+ul {
+    font-size: xx-large;
+    margin: 0%;
+    margin-bottom: 10px;
+    padding: 0%;
+    text-transform: uppercase;
+    background-image: url(wall.png);
+    background-size: cover;
+}

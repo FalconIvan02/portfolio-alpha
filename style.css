@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ff6f61;
+}
+header {
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    flex-wrap: wrap;
+}
+
+.navbar-nav .nav-item {
+    display: inline-block;
+}
+
+.navbar-nav .nav-item:hover {
+    -webkit-transform: scale(1.2);
+    text-decoration: underline;
+    text-decoration-color: rgb(12, 0, 50);
+}
+
+#pfp {
+    border-radius: 50%;
+    margin: 5%;
+    padding: 5%;
+    width: 100px;
+    height: auto;
+}
+
+nav ul li a {
+    font-style: italic;
+    text-decoration: none; /* Con esto quito la decoracion de los anchors */
+    transition: all 0.1s ease; /* Agrega una effecto de transicion mas "Smooth"*/
+    padding: 16px;
+    margin: 16px;
+}
+nav ul {
+    column-gap: 6rem; /*Con esto afecto el espacio entre los list items*/
+}
+
+/*Sections*/
+.sect-container section /*Con esto afecto el texto dentro de cada section*/ {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section {
+    height: 100vh;
+}
+
+/*Section Acerca de mi*/
+#abt-me {
+    background-image: url(/images/bg-img-abt-me.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.abt-me article h2 {
+    color: #ffffffac;
+}
+
+.abt-me {
+    text-align: center;
+    color: #f7e3af;
+    font-weight: bolder;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #ffb0a5, #ff7f6b, #ff4d41, #ff1a16, #8f0c00);
+    backdrop-filter: blur(100px);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Section Estudios*/ /*Puede ir un li con todos la lista de estudios*/
+.Estudios {
+    background-image: url(/images/draw.jpg);
+    background-size: cover;
+}
+.container-estudios {
+    text-align: center;
+    color: #a7c7e7;
+    font-weight: bolder;
+    backdrop-filter: blur(100px);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Section Habilidades*/
+.Habilidades {
+    background-color: #4a2871;
+    background-image: url(/images/habilidades.jpg);
+    background-size: cover;
+}
+.container-habilidades {
+    text-align: center;
+    color: #fffcf2;
+    font-weight: bolder;
+    backdrop-filter: blur(100px);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Section Contacto*/
+#contacto {
+    height: 20vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Section proyectos*/
+
+.proyectos h2 {
+    font-size: 200%;
+    background: linear-gradient(#ffbbbd, #ffdfdf, #ff85a1);
+    font-family: sans-serif;
+    border: 1px white;
+    color: #4d3642;
+}
+.proyectos {
+    background-image: url(/images/proyectos.png);
+    background-size: cover;
+    display: flex;
+}
+
+.proyectos img {
+    width: 420px;
+    height: auto;
+}
+
+/*Pie de pagina*/
+
+footer {
+    display: flex;
+    align-items: center;
+}
+.social-icons {
+    border: 1px solid;
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-icons img:hover {
+    width: 110%;
+    height: auto;
+}
+/*Media queries*/
+@media screen and (max-width: 1020px) {
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+    #pfp {
+        border-radius: 50%;
+        margin: 0.6%;
+        width: 100px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 910px) {
+    header {
+        flex-wrap: wrap;
+    }
+    .navbar-nav {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    nav ul {
+        column-gap: 2rem;
+    }
+    #pfp {
+        border-radius: 50%;
+        margin: 0.6%;
+        width: 100px;
+        height: auto;
+    }
+}
